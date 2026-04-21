@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/cemilfatih/Desktop/GTU/Computer-Graphics/pa/raytracer/src",
+      "program": "/Users/cemilfatih/Desktop/GTU/Computer-Graphics/pa/raytracer/src/build/Debug/outDebug"
+    }
+  ]
+}
