@@ -82,13 +82,4 @@ On a MacBook with 8 logical cores, the included `scenes/standing_girl.xml` (18,1
 
 For higher resolutions the time scales roughly linearly with pixel count.
 
-## Notes for the grader
 
-- Both bonuses are implemented: BVH (`include/BVH.h`, `src/BVH.cpp`) and multithreading (`src/Renderer.cpp`, in `render()`).
-- `Scene::SHADOW_EPSILON` (in `include/Scene.h`) is the per-spec shadow offset constant, set to `1e-3f`.
-- The renderer handles only `<mesh>` objects per the spec — there is no code for spheres, cylinders, or other primitives.
-- To run on your own scene:
-  ```bash
-  ./raytracer /path/to/your/scene.xml /path/to/your/output.png
-  ```
-- If the scene references a texture image, place the PNG in the same directory as the XML (or set the `<textureimage>` tag so the path resolves correctly from the XML directory).
